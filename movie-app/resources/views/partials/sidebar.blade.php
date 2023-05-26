@@ -16,7 +16,7 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     Genres
                 </a>
-                                <a class="nav-link" href="/reviews">
+                <a class="nav-link" href="/reviews">
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     Reviews
                 </a>
