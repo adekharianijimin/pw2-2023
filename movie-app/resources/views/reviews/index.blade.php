@@ -46,7 +46,7 @@
                 </tr>
             </tfoot>
             <tbody>
-                @foreach ($review as $review)
+                @foreach ($reviews as $review)
                 <tr>
                     <td>{{$loop->iteration}}</td>
                     <td>{{$review->film}}</td>
@@ -55,7 +55,7 @@
                     <td>{{$review->review}}</td>
                     <td>{{$review->tahun}}</td>
                     <td>
-                        <a href="" class="btn btn-sm btn-warning"> Edit</a>
+                        <a href="/reviews/{{ $review->id }}/edit" class="btn btn-sm btn-warning"> Edit</a>
                             <form action="/reviews/{{ $review->id }}" method="POST">
                                 @csrf
                                 @method('DELETE')
