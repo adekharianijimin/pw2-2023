@@ -10,6 +10,8 @@ class Review extends Model
 
     use HasFactory;
 
+    protected $fillable = ['film', 'user', 'rating', 'review', 'tahun'];
+
     public function getAllReviews()
     {
         return $this->reviews;
