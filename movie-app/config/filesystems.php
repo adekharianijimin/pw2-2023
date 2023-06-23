@@ -38,7 +38,11 @@ return [
 
         'public' => [
             'driver' => 'local',
+<<<<<<< HEAD
             'root' => storage_path('app/public'),
+=======
+            'root' => public_path(),
+>>>>>>> 0f19d7a (new-update)
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
             'throw' => false,
